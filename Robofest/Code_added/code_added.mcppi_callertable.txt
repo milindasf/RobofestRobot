@@ -1,0 +1,35 @@
+main
+	__CC2DW
+		____DoICP
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	Lcd_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	init_timer
+	PWM1_Init
+	PWM2_Init
+	PWM1_Set_Duty
+		Mul_16x16_U
+	PWM2_Set_Duty
+		Mul_16x16_U
+	PWM1_Start
+	PWM2_Start
+	initEncoder
+	goStraight_1
+		initEncoder
+		moveF
+		rightT
+			PWM1_Set_Duty
+				Mul_16x16_U
+			PWM2_Set_Duty
+				Mul_16x16_U
+		leftT
+			PWM1_Set_Duty
+				Mul_16x16_U
+			PWM2_Set_Duty
+				Mul_16x16_U
+interrupt
+	encoder

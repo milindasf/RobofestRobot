@@ -1,0 +1,30 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -DL -O11111114 -fo20 -N"D:\Milinda\Robofest\Final_code_1\final_code_1.mcppi" -SP"E:\Program Files\mikroC PRO for PIC\defs\" -SP"E:\Program Files\mikroC PRO for PIC\Uses\P16\" -SP"D:\Milinda\Robofest\Final_code_1\" "final_code_1.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_88X.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl"	 
+hint: 0	1138	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 47 ms	 
+diagnostics: 0	122	Compilation Started	final_code_1.c
+warning: 64	1503	Result is not defined in function: 'forward'	final_code_1.c
+warning: 73	1503	Result is not defined in function: 'backward'	final_code_1.c
+warning: 82	1503	Result is not defined in function: 'leftHardTurn'	final_code_1.c
+warning: 91	1503	Result is not defined in function: 'RightHardTurn'	final_code_1.c
+warning: 100	1503	Result is not defined in function: 'leftTurn'	final_code_1.c
+warning: 109	1503	Result is not defined in function: 'RightTurn'	final_code_1.c
+warning: 119	1503	Result is not defined in function: 'leftSoftTurn'	final_code_1.c
+warning: 128	1503	Result is not defined in function: 'rightSoftTurn'	final_code_1.c
+warning: 135	1503	Result is not defined in function: 'stopAll'	final_code_1.c
+warning: 145	1503	Result is not defined in function: 'leftT'	final_code_1.c
+warning: 156	1503	Result is not defined in function: 'rightT'	final_code_1.c
+hint: 159	1161	Variable 'i' has been declared, but not used	final_code_1.c
+warning: 277	1503	Result is not defined in function: 'sensorRead'	final_code_1.c
+hint: 291	1161	Variable 'val' has been declared, but not used	final_code_1.c
+warning: 456	1503	Result is not defined in function: 'lineFollow'	final_code_1.c
+warning: 1235	1503	Result is not defined in function: 'search_arrow'	final_code_1.c
+diagnostics: 1276	123	Compiled Successfully	final_code_1.c
+hint: 292	1162	Variable 'decimal_value' has been eliminated by optimizer	final_code_1.c
+diagnostics: 0	127	All files Compiled in 1341 ms	 
+hint: 0	1143	Used RAM (bytes): 97 (28%)  Free RAM (bytes): 255 (72%)	Used RAM (bytes): 97 (28%)  Free RAM (bytes): 255 (72%)
+hint: 0	1143	Used ROM (program words): 1807 (22%)  Free ROM (program words): 6385 (78%)	Used ROM (program words): 1807 (22%)  Free ROM (program words): 6385 (78%)
+diagnostics: 0	125	Project Linked Successfully	final_code_1.mcppi
+diagnostics: 0	128	Linked in 1326 ms	 
+diagnostics: 0	129	Project 'final_code_1.mcppi' completed: 3432 ms	 
+diagnostics: 0	103	Finished successfully: 11 Sep 2012, 04:24:28	final_code_1.mcppi
